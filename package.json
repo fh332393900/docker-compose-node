@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/fh332393900/docker-compose-node/issues"
   },
-  "homepage": "https://gitlab.com/shfshanyue/simple-deploy#readme",
+  "homepage": "https://github.com/fh332393900/docker-compose-node#readme",
   "dependencies": {
     "express": "^4.18.2"
   },
