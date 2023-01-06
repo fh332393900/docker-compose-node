@@ -1,0 +1,18 @@
+version: "3"
+services:
+  node-app:
+    build:
+      context: .
+      dockerfile: node.Dockerfile
+    ports:
+      - 3000:3000
+  nginx-app:
+    build:
+      context: .
+      dockerfile: nginx.Dockerfile
+    ports:
+      - 80:80
+    volumes:
+      - ./proxy.conf:/etc/nginx/conf.d/default.conf
+      - .:/usr/share/nginx/html
+    

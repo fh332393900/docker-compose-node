@@ -1,0 +1,27 @@
+{
+  "name": "simple-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server-fs.js",
+    "start:server": "node server-fs.js",
+    "learn:nginx": "docker-compose -f learn-nginx.docker-compose.yaml up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/shfshanyue/simple-deploy.git"
+  },
+  "author": "shfshanyue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/shfshanyue/simple-deploy/issues"
+  },
+  "homepage": "https://gitlab.com/shfshanyue/simple-deploy#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
