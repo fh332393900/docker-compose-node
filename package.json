@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server-fs.js",
-    "start:server": "node server-fs.js",
-    "learn:nginx": "docker-compose -f learn-nginx.docker-compose.yaml up"
+    "start:server": "node server-fs.js"
   },
   "repository": {
     "type": "git",
